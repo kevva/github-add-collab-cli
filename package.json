@@ -1,0 +1,42 @@
+{
+  "name": "github-add-collab-cli",
+  "version": "0.0.0",
+  "description": "Add collaborators to Github repos",
+  "license": "MIT",
+  "repository": "kevva/github-add-collab-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "github-add-collab": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "api",
+    "collab",
+    "github",
+    "repo",
+    "repositories"
+  ],
+  "dependencies": {
+    "github-add-collab": "^2.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  }
+}
